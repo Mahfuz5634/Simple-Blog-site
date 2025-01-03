@@ -4,7 +4,7 @@ include 'db.php';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $title = $_POST['title'];
     $content = $_POST['content'];
-    $image_url = $_POST['image_url']; // Get the image URL
+    $image_url = $_POST['image_url'];
 
     $sql = "INSERT INTO posts (title, content, image_url) VALUES ('$title', '$content', '$image_url')";
     $conn->query($sql);
@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <form method="POST">
             <input type="text" name="title" placeholder="Post Title" required>
             <textarea name="content" placeholder="Post Content" required></textarea>
-            <input type="text" name="image_url" placeholder="Image URL" required> <!-- Input for image URL -->
+            <input type="text" name="image_url" placeholder="Image URL" required> 
             <button type="submit">Create Post</button>
         </form>
         <p><a href="index.php">Back to Home</a></p>
