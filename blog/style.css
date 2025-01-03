@@ -1,7 +1,7 @@
-/* General Styles */
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4; /* Light background color */
+    background-color: #f4f4f4; 
     margin: 0;
     padding: 20px;
     color: #333;
@@ -20,8 +20,6 @@ h1, h2 {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
-/* Posts */
 .posts {
     margin-top: 20px;
 }
@@ -52,16 +50,14 @@ h1, h2 {
     text-decoration: underline;
 }
 
-/* Image */
 .post img {
-    width: 182px; /* Set the width */
-    height: 148px; /* Set the height */
-    object-fit: cover; /* Maintain aspect ratio and cover the area */
-    border-radius: 8px; /* Optional: rounded corners */
-    margin-bottom: 10px; /* Space below the image */
+    width: 182px; 
+    height: 148px; 
+    object-fit: cover;
+    border-radius: 8px; 
+    margin-bottom: 10px; 
 }
 
-/* Buttons */
 button {
     background-color: #2980b9;
     color: white;
@@ -70,18 +66,17 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
-    font-size: 14px; /* Consistent font size */
-    margin: 5px 0; /* Space between buttons */
+    font-size: 14px; 
+    margin: 5px 0; 
 }
 
 button:hover {
     background-color: #1a6a9a;
 }
 
-/* Forms */
 form {
-    display: inline; /* Keep buttons inline */
-    margin-right: 10px; /* Space between buttons */
+    display: inline; 
+    margin-right: 10px; 
 }
 
 input[type="text"],
@@ -99,7 +94,6 @@ textarea:focus {
     outline: none;
 }
 
-/* Comments */
 .comments {
     margin-top: 20px;
 }
@@ -116,7 +110,6 @@ textarea:focus {
     color: #777;
 }
 
-/* Footer */
 footer {
     margin-top: 20px;
     text-align: center;
